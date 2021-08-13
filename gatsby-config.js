@@ -3,12 +3,12 @@ module.exports = {
     title: `Giancarlo Blog`,
     author: {
       name: `Giancarlo Rocha`,
-      summary: `who loves programming, playing basketball and beatboxing.`,
+      summary: `Aspiring Software Architect`,
     },
     description: `A blog to practice technical and language writing.`,
     siteUrl: `https://giancarlopro.github.io/`,
     social: {
-      twitter: `ogiancarlopro`,
+      twitter: `gaincarlorocha`,
       github: `giancarlopro`,
     },
   },
