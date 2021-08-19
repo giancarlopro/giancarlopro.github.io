@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `Giancarlo Rocha`,
     author: {
-      name: `Giancarlo Rocha`,
+      name: `Giancarlo da Silva Rocha`,
       summary: `Aspiring Software Architect`,
     },
     description: `A blog to practice technical and language writing.`,

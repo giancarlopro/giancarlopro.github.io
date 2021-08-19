@@ -42,6 +42,8 @@ const Bio = () => {
         display: `flex`,
         marginBottom: rhythm(2.5),
       }}
+      vocab="https://schema.org/"
+      typeof="Person"
     >
       <Image
         fixed={data.avatar.childImageSharp.fixed}
@@ -55,9 +57,10 @@ const Bio = () => {
         imgStyle={{
           borderRadius: `50%`,
         }}
+        property="image"
       />
       <p>
-        Written by <strong>{author.name}</strong>
+        Written by <strong property="name">{author.name}</strong>
         {` | `}
         <a href={`https://twitter.com/${social.twitter}`}>
           Twitter
